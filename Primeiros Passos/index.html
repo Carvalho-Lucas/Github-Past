@@ -57,5 +57,23 @@
         No exemplo acima, o texto "Google" será um link que leva ao site https://google.com.br
         target="_blank" → abre o link em uma nova aba do navegador.
     -->
+
+    <p id="mensagem" hidden>Bem-vindo, usuário!</p>
+
+    <script>
+      // Mostra o parágrafo depois de 3 segundos
+      setTimeout(() => {
+        document.getElementById("mensagem").hidden = false;
+      }, 3000);
+    </script>
+
+    <!-- 
+    Exemplo de uso do atributo "hidden" + JavaScript
+    Mostra como ocultar um texto inicialmente e revelá-lo após alguns segundos.
+
+    <p> → Parágrafo com um texto que já existe no HTML.
+    id="mensagem" → Identificador único usado pelo JavaScript para localizar este elemento.
+    hidden → Atributo que oculta o elemento da tela até ser removido.
+    -->
   </body>
 </html>

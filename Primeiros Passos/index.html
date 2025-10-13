@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Declara que o documento segue o padrão HTML5 -->
+
+<html lang="pt-br">
+  <!-- Define o idioma principal da página como inglês.
+       Se o conteúdo for em português, o ideal seria lang="pt-br" -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define o padrão de codificação de caracteres (UTF-8 permite acentos e símbolos). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <!-- Define o título que aparece na aba do navegador -->
+  </head>
+
+  <body>
+    <!-- Início do conteúdo visível da página -->
+
+    <h1>Teste</h1>
+    <!-- Cabeçalho principal da página -->
+
+    <p>
+      Lorem &nbsp; &nbsp; &nbsp;
+      <!-- &nbsp; cria espaços em branco não quebráveis. Três usados aqui. -->
+      Ipsum is simply dummy text of the printing and typesetting industry.
+      <br /><br />
+      <!-- <br> quebra de linha. Dois <br> criam espaçamento vertical. -->
+
+      Lorem Ipsum has been the &lt;strong>
+      <!-- &lt; = "<" literal, usado para exibir código na tela sem interpretá-lo. -->
+      <strong>industry's</strong> /strong&gt;
+      <!-- <strong> deixa o texto em negrito, semanticamente indicando importância. -->
+      standard &lt;<em> em> text ever since /em </em> &gt;
+      <!-- <em> aplica ênfase (geralmente itálico). Aqui está demonstrando o uso literal das tags <em> e </em>. -->
+      the 1500s, when an unknown printer took a galley of type and scrambled it
+      to make a type specimen book.
+    </p>
+
+    <p>
+      Usa-se o comando &amp;lt; e &amp;gt; para "driblar caracteres reservador":
+      <!-- &amp;lt; = "&lt;" e &amp;gt; = "&gt;" — necessários para mostrar < e > na tela -->
+      <br />
+      👉 Resultado do uso LT E GT:
+      <code> &lt;a href="">Link 1 /a &gt; </code>
+      <!-- <code> indica trecho de código.
+           Aqui, está mostrando literalmente uma tag <a> escapada. -->
+    </p>
+
+    <a href="https://google.com.br" target="_blank"> Google</a>
+    <!-- 
+        <a> = Tag âncora, usada para criar links.
+        href = Atributo obrigatório da tag <a>, vem de "hypertext reference".
+
+        Ele define o destino do link — ou seja, o endereço (URL) 
+        para onde o usuário será levado ao clicar.
+
+        No exemplo acima, o texto "Google" será um link que leva ao site https://google.com.br
+        target="_blank" → abre o link em uma nova aba do navegador.
+    -->
+  </body>
+</html>

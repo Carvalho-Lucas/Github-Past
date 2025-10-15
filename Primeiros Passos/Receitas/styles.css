@@ -1,3 +1,17 @@
+body {
+  background-image: url(assets/bg-image.png);
+  background-size: cover; /* Deixar somente uma imagem em tela*/
+}
+
+#page {
+  width: 800px; /* ajuste como quiser */
+  box-sizing: border-box;
+  background-color: #f0e8c2;
+  padding: 24px;
+  border-radius: 24px;
+  margin: 48px auto;
+}
+
 #main-image {
   border-radius: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

@@ -1,3 +1,9 @@
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573a37;
+}
+
 body {
   background-image: url(assets/bg-image.png);
   background-size: cover; /* Deixar somente uma imagem em tela*/
@@ -15,4 +21,18 @@ body {
 #main-image {
   border-radius: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h1,
+h2 {
+  color: #291b1a;
 }

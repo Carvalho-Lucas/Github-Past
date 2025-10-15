@@ -1,0 +1,21 @@
+/* Forma de fazer comentário */
+
+h3 + p {
+  color: red;
+}
+
+aside > ul {
+  margin-top: 50px;
+}
+
+body {
+  background-color: bisque;
+}
+
+span {
+  margin: 150px;
+  padding: 10px;
+  border: 3px solid blue;
+  /*border-style: dotted solid double dashed;
+  border-color: red blue yellow green;*/
+}

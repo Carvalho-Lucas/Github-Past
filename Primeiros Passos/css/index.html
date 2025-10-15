@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout com Aside</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Sobre</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 
+    Div container .conteudo agrupa o main e o aside,
+    para que o flexbox coloque os dois lado a lado.
+    -->
+    <div class="conteudo">
+      <main>
+        <section id="noticias recentes">
+          <h2>Notícias Recentes</h2>
+
+          <article>
+            <h3>Fotografia e Memórias</h3>
+            <p>
+              A fotografia
+              <mark>é uma forma única de eternizar momentos.</mark> Cada imagem
+              carrega histórias e emoções que atravessam o tempo.
+            </p>
+          </article>
+
+          <article>
+            <h3>Tecnologia e Criatividade</h3>
+            <p>
+              A tecnologia impulsiona a arte moderna, abrindo novas formas de
+              expressão e conexão com o público.
+            </p>
+          </article>
+
+          <p>Fora do Article</p>
+        </section>
+      </main>
+
+      <aside>
+        <h2>Links Úteis</h2>
+        <ul>
+          <li>
+            Galeria
+            <ul>
+              <li>Item 1</li>
+            </ul>
+          </li>
+          <li>Blog</li>
+          <li>Redes Sociais</li>
+        </ul>
+        <ul>
+          <li>
+            Teste
+            <ul>
+              Item 2
+            </ul>
+          </li>
+        </ul>
+        <div>Teste Div 1</div>
+        <div>Teste Div 2</div>
+        <span>Teste Span 1</span>
+        <span>Teste Span 2</span>
+      </aside>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>© 2025 Meu Site — Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
